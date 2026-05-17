@@ -1,0 +1,5 @@
+class,iou
+pet,0.7340
+background,0.8409
+boundary,0.3576
+mIoU,0.6442

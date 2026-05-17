@@ -1,0 +1,10 @@
+{
+  "source": "D:\\计算机视觉\\data\\assignment2_vedio.mp4",
+  "model": "runs/detect/outputs/train/visdrone_yolo-8/weights/best.pt",
+  "frame_count": 478,
+  "unique_track_ids": 194,
+  "line_cross_count": 28,
+  "mean_track_length": 21.72680412371134,
+  "output_video": "D:\\计算机视觉\\assignment2\\outputs\\tracking\\assignment2_vedio_line\\tracked.mp4",
+  "tracks_csv": "D:\\计算机视觉\\assignment2\\outputs\\tracking\\assignment2_vedio_line\\tracks.csv"
+}

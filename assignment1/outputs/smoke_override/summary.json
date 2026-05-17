@@ -1,0 +1,8 @@
+{
+  "experiment_name": "smoke_override",
+  "best_val_acc": 0.0,
+  "num_train": 128,
+  "num_test": 64,
+  "checkpoint": "outputs\\smoke_override\\best.pt",
+  "device": "cuda"
+}

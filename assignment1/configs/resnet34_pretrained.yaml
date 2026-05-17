@@ -1,0 +1,37 @@
+experiment_name: resnet34_pretrained
+seed: 42
+output_dir: outputs/resnet34_pretrained
+
+data:
+  root: ../../data
+  images_dir: oxford_pet_images/images
+  annotations_dir: oxford_pet_annotations/annotations
+  num_classes: 37
+  image_size: 224
+  num_workers: 4
+
+train:
+  batch_size: 32
+  epochs: 10
+  optimizer: adamw
+  lr: 0.0002
+  weight_decay: 0.0001
+  label_smoothing: 0.0
+  freeze_backbone_epochs: 1
+  grad_clip_norm: 5.0
+  amp: true
+
+model:
+  name: resnet34
+  pretrained: true
+  attention: none
+  dropout: 0.2
+
+scheduler:
+  name: cosine
+  min_lr: 1.0e-6
+  warmup_epochs: 1
+
+eval:
+  save_confusion_matrix: true
+  save_predictions: true

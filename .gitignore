@@ -1,0 +1,29 @@
+# Model weights
+*.pt
+*.pth
+
+# Data
+data/
+assignment2/datasets/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Wandb / SwanLab logs
+wandb/
+swanlab/

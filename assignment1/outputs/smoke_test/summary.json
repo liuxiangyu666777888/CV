@@ -1,0 +1,8 @@
+{
+  "experiment_name": "smoke_test",
+  "best_val_acc": 0.984375,
+  "num_train": 128,
+  "num_test": 64,
+  "checkpoint": "outputs\\smoke_test\\best.pt",
+  "device": "cuda"
+}

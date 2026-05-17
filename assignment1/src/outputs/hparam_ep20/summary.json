@@ -1,0 +1,8 @@
+{
+  "experiment_name": "hparam_ep20",
+  "best_val_acc": 0.8705098343932111,
+  "num_train": 3680,
+  "num_test": 3669,
+  "checkpoint": "outputs\\hparam_ep20\\best.pt",
+  "device": "cuda"
+}

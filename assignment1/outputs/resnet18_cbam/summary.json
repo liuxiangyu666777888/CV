@@ -1,0 +1,8 @@
+{
+  "experiment_name": "resnet18_cbam",
+  "best_val_acc": 0.8654632506163223,
+  "num_train": 3680,
+  "num_test": 3669,
+  "checkpoint": "outputs\\resnet18_cbam\\best.pt",
+  "device": "cuda"
+}

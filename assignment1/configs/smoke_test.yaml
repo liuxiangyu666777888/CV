@@ -1,0 +1,39 @@
+experiment_name: smoke_test
+seed: 42
+output_dir: outputs/smoke_test
+
+data:
+  root: ../../data
+  images_dir: oxford_pet_images/images
+  annotations_dir: oxford_pet_annotations/annotations
+  num_classes: 37
+  image_size: 224
+  num_workers: 0
+  train_subset: 128
+  test_subset: 64
+
+train:
+  batch_size: 8
+  epochs: 1
+  optimizer: adamw
+  lr: 0.0003
+  weight_decay: 0.0001
+  label_smoothing: 0.0
+  freeze_backbone_epochs: 0
+  grad_clip_norm: 5.0
+  amp: false
+
+model:
+  name: resnet18
+  pretrained: true
+  attention: none
+  dropout: 0.2
+
+scheduler:
+  name: cosine
+  min_lr: 1.0e-6
+  warmup_epochs: 0
+
+eval:
+  save_confusion_matrix: false
+  save_predictions: true

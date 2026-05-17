@@ -1,0 +1,8 @@
+{
+  "experiment_name": "baseline_resnet18_pretrained",
+  "best_val_acc": 0.8684653209603351,
+  "num_train": 3680,
+  "num_test": 3669,
+  "checkpoint": "outputs\\baseline_resnet18_pretrained\\best.pt",
+  "device": "cuda"
+}
