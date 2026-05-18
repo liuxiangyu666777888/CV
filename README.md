@@ -82,4 +82,4 @@ python evaluate.py --model outputs/unet_dice/best.pt --output-dir outputs/evalua
 
 ## 模型权重
 
-训练好的模型权重文件较大，未包含在仓库中。需要者可联系作者或参考各任务输出目录下的路径说明。
+训练好的模型权重文件较大，未包含在仓库中。
